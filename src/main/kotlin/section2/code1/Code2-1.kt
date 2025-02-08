@@ -14,5 +14,8 @@ fun main() = runBlocking<Unit>(CoroutineName("runBlocking 코루틴"))  {
 
     launch(CoroutineName("launch 코루틴")) {
         println("[${Thread.currentThread().name}] launch 코루틴 실행!!")
+
+
+        println("코파일럿 테스트")
     }
 }
